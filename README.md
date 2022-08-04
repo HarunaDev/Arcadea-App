@@ -1,3 +1,6 @@
-## TIC TAC GAME APP
+## Arcadea GAME APP
 
-tic tac game web application with javascript, will look foward to adding more games to the app.
+A gaming web applications with 2 games, built javaScript.
+Looking to adding more games and make the app more robust as i continue my learning journey.
+
+Checkout a live demo @ https://arcadea.netlify.app/
