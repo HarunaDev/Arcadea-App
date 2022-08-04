@@ -8,15 +8,15 @@ if ("serviceWorker" in navigator) {
     })
 }
 
-let player = {
-    name: "Per",
-    chips: 200,
-    eatMe: function() {
-        console.log("Howdy");
-    }
-}
+// let player = {
+//     name: "Per",
+//     chips: 200,
+//     eatMe: function() {
+//         console.log("Howdy");
+//     }
+// }
 
-player.eatMe()
+// player.eatMe()
 
 let cards = []
 let sum = 0
@@ -58,20 +58,10 @@ function renderGame() {
     }
     
     sumEl.textContent = "Sum: " + sum
-    // if (sum <= 20) {
-    //     message = "Do you want to draw a new card?"
-    // } else if (sum === 21) {
-    //     message = "You've got Blackjack!"
-    //     hasBlackJack = true
-    // } else {
-    //     message = "You're out of the game!"
-    //     isAlive = false
-    // }
 
-    sum <= 20 ? message = "Do you want to draw a new card?": 
-    sum === 21 ? (message = "You've got Blackjack!", hasBlackJack = true): 
+    sum <= 20 ? message = "Do you want to draw a new card?": sum === 21 ? (message = "You've got Blackjack!", hasBlackJack = true): 
     (message = "You're out of the game!", isAlive = false)
-    
+
     messageEl.textContent = message
 }
 
